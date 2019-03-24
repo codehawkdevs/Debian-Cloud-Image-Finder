@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
-
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 *{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .px-2 {
   padding-left: ($spacer * .5) !important;
