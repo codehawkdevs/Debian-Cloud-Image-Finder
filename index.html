@@ -23,15 +23,15 @@
 		<p>Type a few characters in the search box signifying what you’re searching for. For example if you would like to find out the Image ID for the latest release of “Trusty” Tahr to run on a “64″ bit “hvm” instance in the “us-east” region, you would search for “trusty 64 hvm us-east” or a subset thereof. As soon as you start typing into the search box, the list zooms-in on the entries that match your criteria.</p>
 		<p>You may search based on any of the column headers below</p>
 		<br>
-		<h3>This Image finder only shows recommended image types.</h3>
+		<h5>This Image finder only shows recommended image types.</h5>
 
-					<div class="panel-body">
-						<input type="text" class="form-control" id="task-table-filter" data-action="filter" data-filters="#task-table" placeholder="Filter Tasks" />
+					<div class="panel-body" style="width: 50%">
+						<input type="text" class="form-control" id="task-table-filter" data-action="filter" data-filters="#task-table" placeholder="Search" />
 					</div>
 					<br>
 		<div class="table-responsive">
-  <table class="table table-sm table-hover" id="task-table">
-    <thead>
+  <table class="table table-sm table-hover table-striped table-bordered" id="task-table">
+    <thead class="thead-dark">
       <tr>
         <th scope="col">#</th>
         <th scope="col">Cloud</th>
@@ -115,6 +115,20 @@
   </table>
 </div>
 	</div>
+
+<!-- Footer -->
+<footer class="page-footer font-small" style="background-color: #dbdbdb;">
+
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center text-black-50 py-3">© 2019 Copyright:
+      <a class="dark-grey-text" href="https://Debian.org/"><img src="img/footer.png" width="30px">debian.org</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
