@@ -1,5 +1,5 @@
 # Debian Cloud Image Finder (Front-end Only)
-The purpose of this project is demonstrate my HTML and styling + UX skills for Debian's DEBIAN CLOUD IMAGE FINDER in **Google Summer of Code-19**.
+The purpose of this project is demonstrate my HTML and styling + UX skills for Debian's DEBIAN CLOUD IMAGE FINDER project (**Google Summer of Code-19**).
 
 ### Project Overview
 > Developed a static web page which is inspired from [Ubuntu Cloud Image Finder](https://cloud-images.ubuntu.com/locator/).
